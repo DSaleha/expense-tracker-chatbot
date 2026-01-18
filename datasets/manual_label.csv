@@ -1,0 +1,101 @@
+id,amount,category,time,text,condition_status,condition_flags
+1,20000,transport,today,isi bensin motor,ambiguous,"estimation, calculation"
+2,34000,food,today,"famima ksk, bento",ok,
+3,45000,food,yesterday,"lupa nyatet, kemarin makan ramen",ok,
+6,50000,utility,today,kuota internet,ok,
+7,663000,others,today,service motor,ok,
+9,19500,food,yesterday,bayar hutang makan malam,ok,
+10,64000,food,today,"nasi, aqua, onigiri",ambiguous,"foreign_currency, non_plus_operator"
+11,78000,others,today,"chagee, grab",ambiguous,multiple_categories
+12,100000,shopping,today,skincare,ok,
+13,250000,others,yesterday,bayar zakat,ok,
+14,35000,food,today,"makan siang, kopi",ok,
+15,1500000,others,today,kos/kontrakan,ok,
+19,350000,shopping,today,skincare & kebutuhan,ok,
+20,45000,food,today,ayam fillet (1ekor),ok,
+21,50000,food,today,bumbu dapur,ok,
+22,210000,food,today,beras 3 minggu,ambiguous,"non_plus_operator, estimation, calculation"
+24,150000,utility,today,listrik 3 minggu,ambiguous,"non_plus_operator, typo, estimation, calculation"
+25,3000000,others,today,aplikasi univ,ambiguous,estimation
+27,3500000,others,today,Biaya tes GRE/GMAT,ok,
+28,700000,transport,today,transport whoosh pp ke jakarta/ bandung,ambiguous,"non_plus_operator, round_trip"
+31,450000,others,today,membership gym bln nov,ok,
+33,22000,food,today,dimsum+piscok,ok,
+34,34500,shopping,today,parfum indomaret,ok,
+35,500000,others,today,perpanjang stnk mobil,ok,
+36,300000,others,today,e-money,ok,
+40,5000,others,today,biaya admin bank ,ok,
+43,50000,food,today,beli kopi janji manis,ok,
+46,1350000,others,today,bayar kost desember,ok,
+48,275000,others,today,HTM event,ok,
+49,40000,others,today,pompa akuarium,ok,
+50,450000,shopping,today,jaket uniqlo,ok,
+52,80000,shopping,yesterday,"body care (beli scrub dan lip balm, 6 Jan)",ok,
+56,185000,shopping,yesterday,"pakaian beli manset, celana",ok,
+58,2600000,others,today,"cicilan rumah, asuransi",ok,
+60,100000,others,today,Iuran bulanan komplek,ok,
+63,2500000,others,today,modal usaha,ok,
+64,3000000,others,today,furniture rumah,ok,
+66,400000,others,today,arisan 4 minggu,ambiguous,"non_plus_operator, estimation"
+67,200000,others,today,dana darurat,ok,
+68,40,food,today,warteg,rejected,missing_amount
+69,16000,food,yesterday,tadi beli lele,ok,
+71,750000,others,today,bayar les jepang,ok,
+74,5000,others,today,"parkir doang, kesel",ok,
+76,33000,others,today,patungan makan bareng temen,ok,
+72,153000,others,today,biaya klinik ,ok,
+78,24000,food,today,mie aceh tumis telor malem2,ok,
+79,,transport,today,bayar tol,rejected,missing_amount
+81,,food,yesterday,"gue abis beli teh tarik, bayar enam tiga ribu",rejected,missing_amount
+85,,food,yesterday,"tadi pesen bakso barusan, harganya dua puluh tujuh ribu",rejected,missing_amount
+92,,food,yesterday,"saya jajan ayam geprek tadi, harganya dua belas ribu",rejected,missing_amount
+103,,food,yesterday,"Tadi gue makan es krim, harganya delapan belas ribu",rejected,missing_amount
+116,,food,yesterday,"aku tadi ngopi bubur, harganya sembilan delapan ribu",rejected,missing_amount
+121,,food,yesterday,"saya jajan teh tarik tadi, harganya empat enam ribu",rejected,missing_amount
+123,,food,yesterday,"gue barusan barusan jajan pisang goreng, bayar tiga tiga ribu",rejected,missing_amount
+134,,food,yesterday,"tadi gue abis makan ayam geprek, bayar tiga tiga ribu",rejected,missing_amount
+141,,food,yesterday,"tadi abis makan nasi goreng, bayar tujuh tujuh ribu",rejected,missing_amount
+155,,food,yesterday,"saya makan cilok tadi siang, harga enam sembilan ribu",rejected,missing_amount
+158,,food,yesterday,barusan gue barusan ngemil ayam geprek seharga sembilan satu ribu,rejected,missing_amount
+168,,food,yesterday,"ngemil pisang goreng, harganya empat puluh satu ribu",rejected,missing_amount
+169,29000,food,yesterday,tadi aku abis jajan jus mangga,ok,
+178,56000,food,yesterday,barusan aku abis pesen sate padang,ok,
+180,48000,utility,yesterday,tadi aku tadi ngelakuin bayar listrik,ok,
+188,138000,others,yesterday,barusan gue udah servis hp,ok,
+193,79000,utility,yesterday,"barusan gue baru aja bayar listrik, habis duit ",ok,
+199,89000,others,yesterday,tadi saya abis cuci motor,ok,
+202,36000,food,yesterday,gue abis ngemil nasi goreng,ok,
+207,15000,food,yesterday,gue abis pesen roti bakar,ok,
+216,61000,others,yesterday,gue abis ngemil sate padang,ok,
+222,88000,food,yesterday,barusan aku abis makan soto,ok,
+231,72000,food,yesterday,barusan gue abis ngopi nasi goreng,ok,
+238,10000,transport,yesterday,barusan aku naik ojek,ok,
+244,110000,others,today,"gue lagi cuci motor, totalnya",ok,
+245,61000,others,yesterday,barusan gue abis laundry baju,ok,
+252,113000,others,yesterday,gue udah beli tiket bioskop,ok,
+258,82000,transport,yesterday,tadi gue barusan naik ojek,ok,
+265,41000,others,yesterday,"tadi saya udah bayar parkir, habis duit",ok,
+266,146000,others,yesterday,gue barusan cuci motor ,ok,
+282,37000,utility,yesterday,gue tadi beli pulsa listrik,ok,
+295,97000,others,yesterday,barusan aku udah potong rambut,ok,
+298,2887513,transport,today,beli tiket pesawat pulang,ok,
+299,875000,others,today,Sewa 2 LC untuk akhit tahun,ok,
+303,50000,food,yesterday,mie gacoan lapar tengah malam,ok,
+308,40000,shopping,today,beli hand sanityzer,ok,
+309,453000,shopping,today,beli sandal,ok,
+310,59000,others,today,beli ban motor,ok,
+275,117000,others,yesterday,tadi aku potong rambut,ok,
+285,92000,utility,today,saya abis isi pulsa,ok,
+297,2000,food,today,makan gorengan makan 3 bayar 1,ok,
+300,130000,food,today,Makan Ricis bareng gebetan,ok,
+302,43500,food,today,beli coklat buat surprise,ok,
+305,45000,others,today,beli rokok,ok,
+307,19000,food,today,beli teh hijau,ok,
+312,60000,food,today,shopee popcorn promo 12.12,ok,
+314,5000,food,today,beli kopi americano nescafe,ok,
+315,10000,others,today,tiket masuk wahana,ok,
+316,2500000,others,today,buat bayar sewa rumah,ok,
+317,700000,others,today,susu dan kebutuhan anak,ok,
+320,,food,yesterday,19 desember beli minuman creme brule enak tapi eneg,rejected,missing_amount
+321,16000,food,today,beli mixue,ok,
+322,200000,food,today,di batavia pik pegel bagus tapi mahal ,ok,

@@ -1,0 +1,1357 @@
+[
+  {
+    "id": 1,
+    "text": "isi bensin motor",
+    "parsed": {
+      "amount": 20000,
+      "category": "transport",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "estimation",
+        "calculation"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "text": "famima ksk, bento",
+    "parsed": {
+      "amount": 34000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 3,
+    "text": "lupa nyatet, kemarin makan ramen",
+    "parsed": {
+      "amount": 45000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 6,
+    "text": "kuota internet",
+    "parsed": {
+      "amount": 50000,
+      "category": "utility",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 7,
+    "text": "service motor",
+    "parsed": {
+      "amount": 663000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 9,
+    "text": "bayar hutang makan malam",
+    "parsed": {
+      "amount": 19500,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 10,
+    "text": "nasi, aqua, onigiri",
+    "parsed": {
+      "amount": 64000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "foreign_currency",
+        "non_plus_operator"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "text": "chagee, grab",
+    "parsed": {
+      "amount": 78000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "multiple_categories"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "text": "skincare",
+    "parsed": {
+      "amount": 100000,
+      "category": "shopping",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 13,
+    "text": "bayar zakat",
+    "parsed": {
+      "amount": 250000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 14,
+    "text": "makan siang, kopi",
+    "parsed": {
+      "amount": 35000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 15,
+    "text": "kos/kontrakan",
+    "parsed": {
+      "amount": 1500000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 19,
+    "text": "skincare & kebutuhan",
+    "parsed": {
+      "amount": 350000,
+      "category": "shopping",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 20,
+    "text": "ayam fillet (1ekor)",
+    "parsed": {
+      "amount": 45000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 21,
+    "text": "bumbu dapur",
+    "parsed": {
+      "amount": 50000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 22,
+    "text": "beras 3 minggu",
+    "parsed": {
+      "amount": 210000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "non_plus_operator",
+        "estimation",
+        "calculation"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "text": "listrik 3 minggu",
+    "parsed": {
+      "amount": 150000,
+      "category": "utility",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "non_plus_operator",
+        "typo",
+        "estimation",
+        "calculation"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "text": "aplikasi univ",
+    "parsed": {
+      "amount": 3000000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "estimation"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "text": "Biaya tes GRE/GMAT",
+    "parsed": {
+      "amount": 3500000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 28,
+    "text": "transport whoosh pp ke jakarta/ bandung",
+    "parsed": {
+      "amount": 700000,
+      "category": "transport",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "non_plus_operator",
+        "round_trip"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "text": "membership gym bln nov",
+    "parsed": {
+      "amount": 450000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 33,
+    "text": "dimsum+piscok",
+    "parsed": {
+      "amount": 22000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 34,
+    "text": "parfum indomaret",
+    "parsed": {
+      "amount": 34500,
+      "category": "shopping",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 35,
+    "text": "perpanjang stnk mobil",
+    "parsed": {
+      "amount": 500000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 36,
+    "text": "e-money",
+    "parsed": {
+      "amount": 300000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 40,
+    "text": "biaya admin bank ",
+    "parsed": {
+      "amount": 5000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 43,
+    "text": "beli kopi janji manis",
+    "parsed": {
+      "amount": 50000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 46,
+    "text": "bayar kost desember",
+    "parsed": {
+      "amount": 1350000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 48,
+    "text": "HTM event",
+    "parsed": {
+      "amount": 275000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 49,
+    "text": "pompa akuarium",
+    "parsed": {
+      "amount": 40000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 50,
+    "text": "jaket uniqlo",
+    "parsed": {
+      "amount": 450000,
+      "category": "shopping",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 52,
+    "text": "body care (beli scrub dan lip balm, 6 Jan)",
+    "parsed": {
+      "amount": 80000,
+      "category": "shopping",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 56,
+    "text": "pakaian beli manset, celana",
+    "parsed": {
+      "amount": 185000,
+      "category": "shopping",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 58,
+    "text": "cicilan rumah, asuransi",
+    "parsed": {
+      "amount": 2600000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 60,
+    "text": "Iuran bulanan komplek",
+    "parsed": {
+      "amount": 100000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 63,
+    "text": "modal usaha",
+    "parsed": {
+      "amount": 2500000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 64,
+    "text": "furniture rumah",
+    "parsed": {
+      "amount": 3000000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 66,
+    "text": "arisan 4 minggu",
+    "parsed": {
+      "amount": 400000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ambiguous",
+      "flags": [
+        "non_plus_operator",
+        "estimation"
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "text": "dana darurat",
+    "parsed": {
+      "amount": 200000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 68,
+    "text": "warteg",
+    "parsed": {
+      "amount": 40,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "text": "tadi beli lele",
+    "parsed": {
+      "amount": 16000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 71,
+    "text": "bayar les jepang",
+    "parsed": {
+      "amount": 750000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 74,
+    "text": "parkir doang, kesel",
+    "parsed": {
+      "amount": 5000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 76,
+    "text": "patungan makan bareng temen",
+    "parsed": {
+      "amount": 33000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 72,
+    "text": "biaya klinik ",
+    "parsed": {
+      "amount": 153000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 78,
+    "text": "mie aceh tumis telor malem2",
+    "parsed": {
+      "amount": 24000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 79,
+    "text": "bayar tol",
+    "parsed": {
+      "amount": null,
+      "category": "transport",
+      "time": "today"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "text": "gue abis beli teh tarik, bayar enam tiga ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "text": "tadi pesen bakso barusan, harganya dua puluh tujuh ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "text": "saya jajan ayam geprek tadi, harganya dua belas ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "text": "Tadi gue makan es krim, harganya delapan belas ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "text": "aku tadi ngopi bubur, harganya sembilan delapan ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "text": "saya jajan teh tarik tadi, harganya empat enam ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "text": "gue barusan barusan jajan pisang goreng, bayar tiga tiga ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "text": "tadi gue abis makan ayam geprek, bayar tiga tiga ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "text": "tadi abis makan nasi goreng, bayar tujuh tujuh ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 155,
+    "text": "saya makan cilok tadi siang, harga enam sembilan ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 158,
+    "text": "barusan gue barusan ngemil ayam geprek seharga sembilan satu ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "text": "ngemil pisang goreng, harganya empat puluh satu ribu",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "text": "tadi aku abis jajan jus mangga",
+    "parsed": {
+      "amount": 29000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 178,
+    "text": "barusan aku abis pesen sate padang",
+    "parsed": {
+      "amount": 56000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 180,
+    "text": "tadi aku tadi ngelakuin bayar listrik",
+    "parsed": {
+      "amount": 48000,
+      "category": "utility",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 188,
+    "text": "barusan gue udah servis hp",
+    "parsed": {
+      "amount": 138000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 193,
+    "text": "barusan gue baru aja bayar listrik, habis duit ",
+    "parsed": {
+      "amount": 79000,
+      "category": "utility",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 199,
+    "text": "tadi saya abis cuci motor",
+    "parsed": {
+      "amount": 89000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 202,
+    "text": "gue abis ngemil nasi goreng",
+    "parsed": {
+      "amount": 36000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 207,
+    "text": "gue abis pesen roti bakar",
+    "parsed": {
+      "amount": 15000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 216,
+    "text": "gue abis ngemil sate padang",
+    "parsed": {
+      "amount": 61000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 222,
+    "text": "barusan aku abis makan soto",
+    "parsed": {
+      "amount": 88000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 231,
+    "text": "barusan gue abis ngopi nasi goreng",
+    "parsed": {
+      "amount": 72000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 238,
+    "text": "barusan aku naik ojek",
+    "parsed": {
+      "amount": 10000,
+      "category": "transport",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 244,
+    "text": "gue lagi cuci motor, totalnya",
+    "parsed": {
+      "amount": 110000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 245,
+    "text": "barusan gue abis laundry baju",
+    "parsed": {
+      "amount": 61000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 252,
+    "text": "gue udah beli tiket bioskop",
+    "parsed": {
+      "amount": 113000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 258,
+    "text": "tadi gue barusan naik ojek",
+    "parsed": {
+      "amount": 82000,
+      "category": "transport",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 265,
+    "text": "tadi saya udah bayar parkir, habis duit",
+    "parsed": {
+      "amount": 41000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 266,
+    "text": "gue barusan cuci motor ",
+    "parsed": {
+      "amount": 146000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 282,
+    "text": "gue tadi beli pulsa listrik",
+    "parsed": {
+      "amount": 37000,
+      "category": "utility",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 295,
+    "text": "barusan aku udah potong rambut",
+    "parsed": {
+      "amount": 97000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 298,
+    "text": "beli tiket pesawat pulang",
+    "parsed": {
+      "amount": 2887513,
+      "category": "transport",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 299,
+    "text": "Sewa 2 LC untuk akhit tahun",
+    "parsed": {
+      "amount": 875000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 303,
+    "text": "mie gacoan lapar tengah malam",
+    "parsed": {
+      "amount": 50000,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 308,
+    "text": "beli hand sanityzer",
+    "parsed": {
+      "amount": 40000,
+      "category": "shopping",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 309,
+    "text": "beli sandal",
+    "parsed": {
+      "amount": 453000,
+      "category": "shopping",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 310,
+    "text": "beli ban motor",
+    "parsed": {
+      "amount": 59000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 275,
+    "text": "tadi aku potong rambut",
+    "parsed": {
+      "amount": 117000,
+      "category": "others",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 285,
+    "text": "saya abis isi pulsa",
+    "parsed": {
+      "amount": 92000,
+      "category": "utility",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 297,
+    "text": "makan gorengan makan 3 bayar 1",
+    "parsed": {
+      "amount": 2000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 300,
+    "text": "Makan Ricis bareng gebetan",
+    "parsed": {
+      "amount": 130000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 302,
+    "text": "beli coklat buat surprise",
+    "parsed": {
+      "amount": 43500,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 305,
+    "text": "beli rokok",
+    "parsed": {
+      "amount": 45000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 307,
+    "text": "beli teh hijau",
+    "parsed": {
+      "amount": 19000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 312,
+    "text": "shopee popcorn promo 12.12",
+    "parsed": {
+      "amount": 60000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 314,
+    "text": "beli kopi americano nescafe",
+    "parsed": {
+      "amount": 5000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 315,
+    "text": "tiket masuk wahana",
+    "parsed": {
+      "amount": 10000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 316,
+    "text": "buat bayar sewa rumah",
+    "parsed": {
+      "amount": 2500000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 317,
+    "text": "susu dan kebutuhan anak",
+    "parsed": {
+      "amount": 700000,
+      "category": "others",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 320,
+    "text": "19 desember beli minuman creme brule enak tapi eneg",
+    "parsed": {
+      "amount": null,
+      "category": "food",
+      "time": "yesterday"
+    },
+    "condition": {
+      "status": "rejected",
+      "flags": [
+        "missing_amount"
+      ]
+    }
+  },
+  {
+    "id": 321,
+    "text": "beli mixue",
+    "parsed": {
+      "amount": 16000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  },
+  {
+    "id": 322,
+    "text": "di batavia pik pegel bagus tapi mahal ",
+    "parsed": {
+      "amount": 200000,
+      "category": "food",
+      "time": "today"
+    },
+    "condition": {
+      "status": "ok",
+      "flags": []
+    }
+  }
+]

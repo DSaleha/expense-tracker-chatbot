@@ -1,0 +1,9 @@
+flag,type,affect_decision,notes
+missing_amount,primary,yes,reject keras
+multiple_categories,secondary,yes,terdeteksi kategori bermacam
+foreign_currency,secondary,yes,bukan rupiah
+non_plus_operator,secondary,yes,bukan penjumlahan
+estimation,secondary,yes,butuh konfirmasi karena bukan angka fix
+calculation,secondary,yes,bukan kalkulasi antar nominal
+typo,decorative,no,noise
+round_trip,decorative,no,penambah semantik

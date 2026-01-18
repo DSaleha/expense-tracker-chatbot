@@ -1,0 +1,6 @@
+rule_id,rule_level,condition_flags,condition_status,action,final_status,bot_response,notes
+R1,primary,missing_amount,rejected,do_not_save,rejected,"""Nominalnya belum ada. Isi dulu pake angka ya.""",data inti tidak tersedia
+R2,secondary,multiple_categories,ambiguous,ask_split,awaiting_input,"""Aku nemu beberapa kategori. Mau dipisah?""",banyak makna
+R3,secondary,"foreign_currency, non_plus_operator",ambiguous,ask_confirmation,awaiting_input,"""Ini pakai perhitungan khusus. Bener ya totalnya?""",risiko salah tafsir
+R4,secondary,"estimation, calculation",ambiguous,ask_confirmation,awaiting_input,"""Aku catat dulu. Mau konfirmasi?""",amount ada tapi perlu validasi
+R5,default,,ok,save,saved,"""Sip. Udah dicatat ya.""",data tervalidasi dan dapat dipercaya 

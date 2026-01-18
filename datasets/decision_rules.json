@@ -1,0 +1,76 @@
+{
+  "rules": [
+    {
+      "rule_id": "R1",
+      "condition": {
+        "status": "rejected",
+        "flags": [
+          "missing_amount"
+        ]
+      },
+      "action": "do_not_save",
+      "final_status": "rejected",
+      "bot_response": "\"Nominalnya belum ada. Isi dulu pake angka ya.\"",
+      "notes": "data inti tidak tersedia"
+    },
+    {
+      "rule_id": "R2",
+      "condition": {
+        "status": "ambiguous",
+        "flags": [
+          "multiple_categories"
+        ]
+      },
+      "action": "ask_split",
+      "final_status": "awaiting_input",
+      "bot_response": "\"Aku nemu beberapa kategori. Mau dipisah?\"",
+      "notes": "banyak makna"
+    },
+    {
+      "rule_id": "R3",
+      "condition": {
+        "status": "ambiguous",
+        "flags": [
+          "foreign_currency",
+          "non_plus_operator"
+        ]
+      },
+      "action": "ask_confirmation",
+      "final_status": "awaiting_input",
+      "bot_response": "\"Ini pakai perhitungan khusus. Bener ya totalnya?\"",
+      "notes": "risiko salah tafsir"
+    },
+    {
+      "rule_id": "R4",
+      "condition": {
+        "status": "ambiguous",
+        "flags": [
+          "estimation",
+          "calculation"
+        ]
+      },
+      "action": "ask_confirmation",
+      "final_status": "awaiting_input",
+      "bot_response": "\"Aku catat dulu. Mau konfirmasi?\"",
+      "notes": "amount ada tapi perlu validasi"
+    },
+    {
+      "rule_id": "R5",
+      "condition": {
+        "status": "ok",
+        "flags": []
+      },
+      "action": "save",
+      "final_status": "saved",
+      "bot_response": "\"Sip. Udah dicatat ya.\"",
+      "notes": "data tervalidasi dan dapat dipercaya "
+    }
+  ],
+  "evaluation_order": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+  ]
+}

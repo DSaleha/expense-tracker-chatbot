@@ -1,0 +1,322 @@
+id,text,status,flags,rule,amount,currency,normalized
+1,"isi bensin motor. lupa brp, kira2 20rb",ambiguous,multiple_categories|estimation,R2,20000,IDR,20000
+2,"famima ksk 16000, bento 18rb",ambiguous,multiple_categories,R2,18000,IDR,18000
+3,"lupa nyatet, kemarin makan ramen 45rb",ambiguous,multiple_categories,R2,45000,IDR,45000
+4,Jajan kopi 20k,ok,,R5,20000,IDR,20000
+5,Beli kuota internet 50k,ok,,R5,50000,IDR,50000
+6,Ayam penyet 15k,ok,,R5,15000,IDR,15000
+7,service motor 663.000,ok,,R5,663000,IDR,663000
+8,belanja di alfa Rp 268.664,ok,,R5,268664,IDR,268664
+9,bayar hutang makan malam kemaren 7.500 + 7.000 + 5.000,ok,,R5,19500,IDR,19500
+10,Nasi 9.8 + akua 1.3 + onigiri 4.9 = 16 ringgit x 4.000 = 64.000,ambiguous,calculation|non_plus_operator,R3,68000,IDR,68000
+11,chagee + grab 78rb,ok,,R5,78000,IDR,78000
+12,skincare 100k,ok,,R5,100000,IDR,100000
+13,bayar zakat lewat blu tgl 9 des 250k,ok,,R5,250000,IDR,250000
+14,"Makan siang 20k, kopi 15k",ambiguous,multiple_categories,R2,20000,IDR,20000
+15,"Kos/Kontrakan: 1,5 jt dapet kamar + tembok + kipas = syukur",ambiguous,multiple_categories|calculation|non_plus_operator,R2,1500000,IDR,1500000
+16,Transport: 400k,ok,,R5,400000,IDR,400000
+17,Orang Tua: 800k,ok,,R5,800000,IDR,800000
+18,Kuota & Langganan: 250k,ok,,R5,250000,IDR,250000
+19,Skincare & Kebutuhan: 350k,ok,,R5,350000,IDR,350000
+20,Ayam Fillet : 45.000 (1ekor),ok,,R5,45000,IDR,45000
+21,Bumnu dapur : 50.000,ok,,R5,50000,IDR,50000
+22,Beras : 70.000 (5KG) x 3 Minggu = 210.000,ambiguous,calculation|non_plus_operator,R3,5000,IDR,5000
+23,Wifi+Paket Data : 250.000,ok,,R5,250000,IDR,250000
+24,Listrik : 50.000 x 3 minfgu = 150.000,ambiguous,calculation|non_plus_operator,R3,200000,IDR,200000
+25,Biaya aplikasi univ (sebelum pengajuan reimburse ke LPDP) +- 2-3jt,ambiguous,non_plus_operator,R3,3000000,IDR,3000000
+26,Biaya tes bahasa (3.5jt IELTS/TOEFL iBT),ambiguous,non_plus_operator,R3,3500000,IDR,3500000
+27,Biaya tes GRE/GMAT 3.5jt,ambiguous,non_plus_operator,R3,3500000,IDR,3500000
+28,"Transport Whoosh PP ke Jakarta/ Bandung 350,000 x 2",ambiguous,multiple_categories|non_plus_operator|round_trip,R2,350000,IDR,350000
+29,top up flazz bca 50ribu,ok,,R5,50000,IDR,50000
+30,warteg makan siang 18 ribu,ok,,R5,18000,IDR,18000
+31,membership gym bln nov Rp.450.000,ok,,R5,450000,IDR,450000
+32,topup shopeepay 100k,ok,,R5,100000,IDR,100000
+33,dimsum+piscok = 15rb + 7rb,ambiguous,calculation,R4,15000,IDR,15000
+34,"parfum indomaret 34,500",ambiguous,multiple_categories,R2,34500,IDR,34500
+35,perpanjang stnk mobil 500 rb,ok,,R5,500000,IDR,500000
+36,e-money Rp 300.000,ambiguous,non_plus_operator,R3,300000,IDR,300000
+37,Token listrik 300rb,ok,,R5,300000,IDR,300000
+38,Byr parkir 3000,ok,,R5,3000,IDR,3000
+39,Gocar Rumah - Kokas Rp 75.000,ambiguous,non_plus_operator,R3,75000,IDR,75000
+40,Biaya admin bank 5rb,ok,,R5,5000,IDR,5000
+41,Beli tiket konser 1.000.000,ok,,R5,1000000,IDR,1000000
+42,Beli kuota bulanan 200 rb,ok,,R5,200000,IDR,200000
+43,Beli kopi Janji Manis 50.000,ok,,R5,50000,IDR,50000
+44,Ayam geprek 18.000,ok,,R5,18000,IDR,18000
+45,Indomie: 3.500,ok,,R5,3500,IDR,3500
+46,Bayar Kost Desember 1jt 350rb,ok,,R5,1000000,IDR,1000000
+47,nabung 5rts ribu,rejected,missing_amount,R1,,IDR,
+48,HTM event 275.000,ok,,R5,275000,IDR,275000
+49,pompa akuarium 40k,ok,,R5,40000,IDR,40000
+50,jaket uniqlo 450rb,ok,,R5,450000,IDR,450000
+51,"nonton di XXI 35,000",ambiguous,multiple_categories|non_plus_operator,R2,35000,IDR,35000
+52,"Body Care (beli scrub dan lip balm, 6 Jan): Rp. 80.000",ambiguous,multiple_categories,R2,80000,IDR,80000
+53,"Transport (gojek, 6 Jan): Rp. 18.000",ambiguous,multiple_categories,R2,18000,IDR,18000
+54,"Makanan (beli jajan di sunmor, 12 Jan) : Rp 35.000",ambiguous,multiple_categories,R2,35000,IDR,35000
+55,"Transport (grab, 12 Jan): Rp. 23.000",ambiguous,multiple_categories,R2,23000,IDR,23000
+56,"Pakaian (beli manset+celana, 13 Jan): Rp. 185.000",ambiguous,multiple_categories,R2,185000,IDR,185000
+57,"Tgl 10 jajan habis 15k (beli ayam bakar, risol, roti)",ambiguous,multiple_categories,R2,15000,IDR,15000
+58,Cicilan rumah + asuransi Rp.2.600.000,ok,,R5,2600000,IDR,2600000
+59,"Air, listrilk Rp.300.000",ambiguous,multiple_categories,R2,300000,IDR,300000
+60,Iuran bulanan komplek Rp.100.000,ok,,R5,100000,IDR,100000
+61,kado untuk teman 150rb,ok,,R5,150000,IDR,150000
+62,Investasi reksa dana Rp 1.450.000,ok,,R5,1450000,IDR,1450000
+63,"Modal usaha 2,5jt",ambiguous,multiple_categories,R2,2500000,IDR,2500000
+64,Furniture rumah 3jt,ok,,R5,3000000,IDR,3000000
+65,laundry 50.000,ok,,R5,50000,IDR,50000
+66,Arisan 4 minggu 100X4 = 400rb,ambiguous,calculation|non_plus_operator,R3,400000,IDR,400000
+67,"Dana darurat 200,000",ambiguous,multiple_categories,R2,200000,IDR,200000
+68,Warteg 40,rejected,missing_amount,R1,,IDR,
+69,tadi beli lele 16.000,ok,,R5,16000,IDR,16000
+70,"Langganan (Netflix, Spotify, dll): Rp 64.000",ambiguous,multiple_categories|non_plus_operator,R2,64000,IDR,64000
+71,bayar les jepang 750rb,ok,,R5,750000,IDR,750000
+72,biaya klinik 153000,ok,,R5,153000,IDR,153000
+73,sedekah 100ribu,ok,,R5,100000,IDR,100000
+74,parkir doang 5rb kesel,ok,,R5,5000,IDR,5000
+75,sarapan seadanya 10 ribu,ok,,R5,10000,IDR,10000
+76,patungan makan bareng temen 33rb,ok,,R5,33000,IDR,33000
+77,makan siang kebab es teh 32 ribuan,rejected,missing_amount,R1,32000,IDR,32000
+78,mie aceh tumis telor malem2 24k,ok,,R5,24000,IDR,24000
+79,"bayar tol, lupa nominalnya",rejected,missing_amount,R1,,IDR,
+80,Thr 1jt,ok,,R5,1000000,IDR,1000000
+81,"gue abis beli teh tarik, bayar enam tiga ribu.",rejected,missing_amount,R1,,IDR,
+82,"saya pesen martabak barusan, harganya delapan puluh lima ribu.",rejected,missing_amount,R1,,IDR,
+83,Barusan aku ngemil martabak seharga lima puluh ribu.,rejected,missing_amount,R1,,IDR,
+84,"tadi gue abis ngemil soto, bayar empat delapan ribu.",rejected,missing_amount,R1,,IDR,
+85,"tadi pesen bakso barusan, harganya dua puluh tujuh ribu.",rejected,missing_amount,R1,,IDR,
+86,"aku tadi pesen nasi goreng barusan, harganya lima delapan ribu.",rejected,missing_amount,R1,,IDR,
+87,"gue pesen ayam geprek barusan, harganya tiga puluh dua ribu.",rejected,missing_amount,R1,,IDR,
+88,"gue barusan abis makan roti bakar, bayar delapan tiga ribu.",rejected,missing_amount,R1,,IDR,
+89,"Tadi gue pesan roti bakar, harganya sembilan dua ribu.",rejected,missing_amount,R1,,IDR,
+90,Tadi aku beli bakso seharga tujuh puluh lima ribu.,rejected,missing_amount,R1,,IDR,
+91,"gue barusan jajan ayam geprek tadi, harganya sembilan puluh tiga ribu.",rejected,missing_amount,R1,,IDR,
+92,"saya jajan ayam geprek tadi, harganya dua belas ribu.",rejected,missing_amount,R1,,IDR,
+93,"Tadi gue jajan jus mangga, harganya tiga delapan ribu.",rejected,missing_amount,R1,,IDR,
+94,"aku tadi makan jus mangga, harganya tiga tiga ribu.",rejected,missing_amount,R1,,IDR,
+95,"tadi barusan jajan cilok, bayar delapan sembilan ribu.",rejected,missing_amount,R1,,IDR,
+96,"aku tadi makan soto tadi siang, harga enam sembilan ribu.",rejected,missing_amount,R1,,IDR,
+97,"Tadi gue ngopi soto, harganya delapan lima ribu.",rejected,missing_amount,R1,,IDR,
+98,"barusan pesen ayam geprek barusan, harganya enam puluh ribu.",rejected,missing_amount,R1,,IDR,
+99,Barusan saya jajan roti bakar seharga lima puluh ribu.,rejected,missing_amount,R1,,IDR,
+100,"gue barusan makan bubur tadi siang, harga satu tujuh ribu.",rejected,missing_amount,R1,,IDR,
+101,"gue barusan jajan soto, bayar tujuh satu ribu.",rejected,missing_amount,R1,,IDR,
+102,Tadi barusan beli pisang goreng seharga sembilan lima ribu.,rejected,missing_amount,R1,,IDR,
+103,"Tadi gue makan es krim, harganya delapan belas ribu.",rejected,missing_amount,R1,,IDR,
+104,"tadi tadi beli mie ayam, harganya enam puluh enam ribu.",rejected,missing_amount,R1,,IDR,
+105,"aku tadi tadi ngopi pisang goreng, harganya enam puluh ribu.",rejected,missing_amount,R1,,IDR,
+106,"tadi gue tadi beli es krim, harganya tujuh puluh sembilan ribu.",rejected,missing_amount,R1,,IDR,
+107,"gue barusan tadi beli mie ayam, harganya lima puluh dua ribu.",rejected,missing_amount,R1,,IDR,
+108,"aku tadi pesen ayam geprek barusan, harganya sembilan enam ribu.",rejected,missing_amount,R1,,IDR,
+109,Tadi gue beli pisang goreng seharga sembilan puluh satu ribu.,rejected,missing_amount,R1,,IDR,
+110,"tadi gue makan ayam geprek tadi siang, harga dua lima ribu.",rejected,missing_amount,R1,,IDR,
+111,barusan jajan es krim dengan harga lima puluh tujuh ribu.,rejected,missing_amount,R1,,IDR,
+112,Barusan gue makan kopi seharga sembilan tujuh ribu.,rejected,missing_amount,R1,,IDR,
+113,Tadi saya beli es krim seharga enam tujuh ribu.,rejected,missing_amount,R1,,IDR,
+114,"tadi gue pesen es teh barusan, harganya tiga puluh tiga ribu.",rejected,missing_amount,R1,,IDR,
+115,Barusan tadi ngemil kopi seharga tiga puluh enam ribu.,rejected,missing_amount,R1,,IDR,
+116,"aku tadi ngopi bubur, harganya sembilan delapan ribu.",rejected,missing_amount,R1,,IDR,
+117,"gue jajan pisang goreng tadi, harganya lima lima ribu.",rejected,missing_amount,R1,,IDR,
+118,"gue barusan makan es krim tadi siang, harga empat puluh enam ribu.",rejected,missing_amount,R1,,IDR,
+119,"Tadi gue ngemil es teh, harganya sembilan lima ribu.",rejected,missing_amount,R1,,IDR,
+120,barusan ngopi es krim dengan harga enam satu ribu.,rejected,missing_amount,R1,,IDR,
+121,"saya jajan teh tarik tadi, harganya empat enam ribu.",rejected,missing_amount,R1,,IDR,
+122,Tadi gue beli mie ayam seharga lima tiga ribu.,rejected,missing_amount,R1,,IDR,
+123,"gue barusan barusan jajan pisang goreng, bayar tiga tiga ribu.",rejected,missing_amount,R1,,IDR,
+124,"aku tadi makan es krim tadi siang, harga tujuh enam ribu.",rejected,missing_amount,R1,,IDR,
+125,"tadi tadi beli soto, harganya sembilan sembilan ribu.",rejected,missing_amount,R1,,IDR,
+126,"aku makan mie ayam tadi siang, harga dua lima ribu.",rejected,missing_amount,R1,,IDR,
+127,"tadi abis ngemil pisang goreng, bayar lima puluh tiga ribu.",rejected,missing_amount,R1,,IDR,
+128,"saya jajan roti bakar tadi, harganya enam dua ribu.",rejected,missing_amount,R1,,IDR,
+129,"aku tadi barusan jajan cilok, bayar enam puluh enam ribu.",rejected,missing_amount,R1,,IDR,
+130,"tadi jajan pisang goreng tadi, harganya enam dua ribu.",rejected,missing_amount,R1,,IDR,
+131,"gue makan mie ayam tadi siang, harga tiga puluh dua ribu.",rejected,missing_amount,R1,,IDR,
+132,Tadi tadi gue beli roti bakar seharga tiga tujuh ribu.,rejected,missing_amount,R1,,IDR,
+133,"tadi gue barusan jajan roti bakar, bayar tujuh sembilan ribu.",rejected,missing_amount,R1,,IDR,
+134,"tadi gue abis makan ayam geprek, bayar tiga tiga ribu.",rejected,missing_amount,R1,,IDR,
+135,"barusan makan teh tarik tadi siang, harga lima belas ribu.",rejected,missing_amount,R1,,IDR,
+136,"gue jajan ayam geprek tadi, harganya tujuh tujuh ribu.",rejected,missing_amount,R1,,IDR,
+137,"aku tadi barusan jajan bakso, bayar dua satu ribu.",rejected,missing_amount,R1,,IDR,
+138,"barusan tadi makan bakso, harganya sembilan empat ribu.",rejected,missing_amount,R1,,IDR,
+139,barusan jajan ayam geprek dengan harga satu puluh ribu.,rejected,missing_amount,R1,,IDR,
+140,tadi beli pisang goreng dengan harga lima delapan ribu.,rejected,missing_amount,R1,,IDR,
+141,"tadi abis makan nasi goreng, bayar tujuh tujuh ribu.",rejected,missing_amount,R1,,IDR,
+142,"tadi gue jajan mie ayam tadi, harganya empat puluh tiga ribu.",rejected,missing_amount,R1,,IDR,
+143,"tadi makan ayam geprek tadi siang, harga sembilan puluh delapan ribu.",rejected,missing_amount,R1,,IDR,
+144,"saya pesen kopi barusan, harganya enam puluh ribu.",rejected,missing_amount,R1,,IDR,
+145,"gue barusan jajan kopi, bayar empat empat ribu.",rejected,missing_amount,R1,,IDR,
+146,"tadi gue barusan jajan teh tarik, bayar lima tujuh ribu.",rejected,missing_amount,R1,,IDR,
+147,"barusan jajan jus mangga tadi, harganya tujuh satu ribu.",rejected,missing_amount,R1,,IDR,
+148,"tadi gue barusan jajan martabak, bayar tiga puluh enam ribu.",rejected,missing_amount,R1,,IDR,
+149,"saya tadi pesan nasi goreng, harganya delapan puluh tujuh ribu.",rejected,missing_amount,R1,,IDR,
+150,"aku tadi barusan jajan kopi, bayar enam puluh satu ribu.",rejected,missing_amount,R1,,IDR,
+151,"gue makan pisang goreng tadi siang, harga tiga belas ribu.",rejected,missing_amount,R1,,IDR,
+152,gue barusan ngopi cilok dengan harga dua puluh satu ribu.,rejected,missing_amount,R1,,IDR,
+153,Tadi tadi beli bubur seharga sembilan puluh ribu.,rejected,missing_amount,R1,,IDR,
+154,"barusan tadi beli roti bakar, harganya tiga lima ribu.",rejected,missing_amount,R1,,IDR,
+155,"saya makan cilok tadi siang, harga enam sembilan ribu.",rejected,missing_amount,R1,,IDR,
+156,"aku makan roti bakar tadi siang, harga lima puluh satu ribu.",rejected,missing_amount,R1,,IDR,
+157,"tadi gue makan es krim tadi siang, harga tiga empat ribu.",rejected,missing_amount,R1,,IDR,
+158,Barusan gue barusan ngemil ayam geprek seharga sembilan satu ribu.,rejected,missing_amount,R1,,IDR,
+159,"saya makan kopi tadi siang, harga empat lima ribu.",rejected,missing_amount,R1,,IDR,
+160,"Tadi gue pesan teh tarik, harganya delapan puluh ribu.",rejected,missing_amount,R1,,IDR,
+161,"gue barusan tadi ngemil cilok, harganya sembilan tiga ribu.",rejected,missing_amount,R1,,IDR,
+162,Tadi aku tadi beli mie ayam seharga lima delapan ribu.,rejected,missing_amount,R1,,IDR,
+163,tadi gue jajan martabak dengan harga sembilan dua ribu.,rejected,missing_amount,R1,,IDR,
+164,"Tadi gue ngopi mie ayam, harganya delapan delapan ribu.",rejected,missing_amount,R1,,IDR,
+165,aku ngopi mie ayam dengan harga tujuh puluh delapan ribu.,rejected,missing_amount,R1,,IDR,
+166,"aku tadi makan teh tarik tadi siang, harga tujuh sembilan ribu.",rejected,missing_amount,R1,,IDR,
+167,"tadi tadi beli mie ayam, harganya dua tujuh ribu.",rejected,missing_amount,R1,,IDR,
+168,"Tadi gue ngemil pisang goreng, harganya empat puluh satu ribu.",rejected,missing_amount,R1,,IDR,
+169,tadi aku abis jajan jus mangga 29ribu,ok,,R5,29000,IDR,29000
+170,barusan gue abis makan es krim 37ribu,ok,,R5,37000,IDR,37000
+171,tadi gue abis ngemil roti bakar 33k,ok,,R5,33000,IDR,33000
+172,tadi aku abis beli bakso malang 53k,ok,,R5,53000,IDR,53000
+173,aku abis makan teh tarik 59rb,ok,,R5,59000,IDR,59000
+174,aku abis makan martabak 35ribu,ok,,R5,35000,IDR,35000
+175,tadi aku abis ngopi bakso malang 27k,ok,,R5,27000,IDR,27000
+176,gue abis pesen martabak 56k,ok,,R5,56000,IDR,56000
+177,barusan aku abis beli mie goreng 23k,ok,,R5,23000,IDR,23000
+178,barusan aku abis pesen sate padang 56k,ok,,R5,56000,IDR,56000
+179,tadi aku abis jajan mie goreng 80rb,ok,,R5,80000,IDR,80000
+180,"tadi aku tadi ngelakuin bayar listrik, keluar 48rb",ambiguous,multiple_categories,R2,48000,IDR,48000
+181,"tadi aku abis bayar listrik, habis duit 123ribu",ambiguous,multiple_categories,R2,123000,IDR,123000
+182,tadi saya lagi naik ojek 116k,ok,,R5,116000,IDR,116000
+183,"aku baru aja abis bayar listrik, habis 89rb",ambiguous,multiple_categories,R2,89000,IDR,89000
+184,"barusan gue baru aja abis cuci motor, habis 28rb",ambiguous,multiple_categories,R2,28000,IDR,28000
+185,"tadi aku baru aja laundry baju, ngeluarin 72ribu",ambiguous,multiple_categories,R2,72000,IDR,72000
+186,"gue abis laundry baju, bayar 130rb",ambiguous,multiple_categories,R2,130000,IDR,130000
+187,tadi gue tadi aja isi pulsa 107k,ok,,R5,107000,IDR,107000
+188,"barusan gue udah servis hp, bayar 138k",ambiguous,multiple_categories,R2,138000,IDR,138000
+189,"gue barusan ngelakuin bayar listrik, keluar 81rb",ambiguous,multiple_categories,R2,81000,IDR,81000
+190,aku baru aja bayar listrik 7rb,ok,,R5,7000,IDR,7000
+191,"tadi saya baru aja servis hp, totalnya 25ribu",ambiguous,multiple_categories|calculation,R2,25000,IDR,25000
+192,"tadi saya baru aja beli tiket bioskop, totalnya 136rb",ambiguous,multiple_categories|calculation,R2,136000,IDR,136000
+193,"barusan gue baru aja bayar listrik, habis duit 79ribu",ambiguous,multiple_categories,R2,79000,IDR,79000
+194,"tadi saya barusan beli pulsa listrik, habis duit 102ribu",ambiguous,multiple_categories,R2,102000,IDR,102000
+195,"barusan aku lagi cuci motor, ngeluarin 94rb",ambiguous,multiple_categories,R2,94000,IDR,94000
+196,"barusan aku lagi cuci motor, bayar 139rb",ambiguous,multiple_categories,R2,139000,IDR,139000
+197,"aku tadi laundry baju, bayar 122rb",ambiguous,multiple_categories,R2,122000,IDR,122000
+198,barusan gue laundry baju 50ribu,ok,,R5,50000,IDR,50000
+199,"tadi saya abis cuci motor, bayar 89ribu",ambiguous,multiple_categories,R2,89000,IDR,89000
+200,barusan aku abis makan jus jeruk 40rb,ok,,R5,40000,IDR,40000
+201,aku abis ngemil ayam geprek 76ribu,ok,,R5,76000,IDR,76000
+202,gue abis ngemil nasi goreng 36ribu,ok,,R5,36000,IDR,36000
+203,tadi gue abis ngopi mie ayam 61rb,ok,,R5,61000,IDR,61000
+204,gue abis ngemil nasi goreng 87ribu,ok,,R5,87000,IDR,87000
+205,tadi aku abis beli soto 28rb,ok,,R5,28000,IDR,28000
+206,aku abis ngemil cilok 81k,ok,,R5,81000,IDR,81000
+207,gue abis pesen roti bakar 15ribu,ok,,R5,15000,IDR,15000
+208,gue abis pesen sate ayam 12rb,ok,,R5,12000,IDR,12000
+209,tadi gue abis pesen kopi 12k,ok,,R5,12000,IDR,12000
+210,tadi gue abis jajan mie goreng 70ribu,ok,,R5,70000,IDR,70000
+211,barusan aku abis pesen es krim 43ribu,ok,,R5,43000,IDR,43000
+212,saya abis jajan kopi 48k,ok,,R5,48000,IDR,48000
+213,aku abis ngopi mie ayam 41ribu,ok,,R5,41000,IDR,41000
+214,aku abis jajan roti bakar 46rb,ok,,R5,46000,IDR,46000
+215,barusan gue abis jajan kopi 75k,ok,,R5,75000,IDR,75000
+216,gue abis ngemil sate padang 61k,ok,,R5,61000,IDR,61000
+217,saya abis ngopi roti bakar 36k,ok,,R5,36000,IDR,36000
+218,tadi gue abis beli ayam geprek 32k,ok,,R5,32000,IDR,32000
+219,saya abis jajan es teh 55rb,ok,,R5,55000,IDR,55000
+220,barusan aku abis ngemil nasi goreng 88rb,ok,,R5,88000,IDR,88000
+221,tadi aku abis makan sate ayam 76k,ok,,R5,76000,IDR,76000
+222,barusan aku abis makan soto 88ribu,ok,,R5,88000,IDR,88000
+223,barusan gue abis ngopi nasi goreng 36rb,ok,,R5,36000,IDR,36000
+224,barusan gue abis ngemil bakso malang 16ribu,ok,,R5,16000,IDR,16000
+225,tadi aku abis makan es teh 41ribu,ok,,R5,41000,IDR,41000
+226,tadi aku abis beli pisang goreng 40ribu,ok,,R5,40000,IDR,40000
+227,saya abis beli bubur 64rb,ok,,R5,64000,IDR,64000
+228,aku abis ngemil nasi goreng 50k,ok,,R5,50000,IDR,50000
+229,tadi aku abis jajan jus mangga 20k,ok,,R5,20000,IDR,20000
+230,barusan aku abis beli kopi 14rb,ok,,R5,14000,IDR,14000
+231,barusan gue abis ngopi nasi goreng 72ribu,ok,,R5,72000,IDR,72000
+232,tadi gue abis ngopi jus mangga 78k,ok,,R5,78000,IDR,78000
+233,saya abis ngopi bubur 79ribu,ok,,R5,79000,IDR,79000
+234,aku abis beli es krim 50ribu,ok,,R5,50000,IDR,50000
+235,saya abis jajan sate padang 63k,ok,,R5,63000,IDR,63000
+236,"barusan aku lagi bayar listrik, totalnya 23rb",ambiguous,multiple_categories|calculation,R2,23000,IDR,23000
+237,"tadi gue tadi beli pulsa listrik, totalnya 111ribu",ambiguous,multiple_categories|calculation,R2,111000,IDR,111000
+238,barusan aku naik ojek 10k,ok,,R5,10000,IDR,10000
+239,saya baru aja isi pulsa 122k,ok,,R5,122000,IDR,122000
+240,"barusan aku tadi naik ojek, bayar 100k",ambiguous,multiple_categories,R2,100000,IDR,100000
+241,"barusan gue abis bayar listrik, keluar duit 144k",ambiguous,multiple_categories,R2,144000,IDR,144000
+242,tadi aku bayar parkir 48k,ok,,R5,48000,IDR,48000
+243,"gue tadi abis servis hp, habis 143rb",ambiguous,multiple_categories,R2,143000,IDR,143000
+244,"gue lagi cuci motor, totalnya 110rb",ambiguous,multiple_categories|calculation,R2,110000,IDR,110000
+245,"barusan gue abis laundry baju, bayar 61k",ambiguous,multiple_categories,R2,61000,IDR,61000
+246,"aku barusan cuci motor, keluar duit 23rb",ambiguous,multiple_categories,R2,23000,IDR,23000
+247,"tadi saya tadi servis hp, bayar 29ribu",ambiguous,multiple_categories,R2,29000,IDR,29000
+248,"tadi aku baru aja potong rambut, totalnya 111ribu",ambiguous,multiple_categories|calculation,R2,111000,IDR,111000
+249,gue baru aja laundry baju 92ribu,ok,,R5,92000,IDR,92000
+250,barusan gue servis hp 85rb,ok,,R5,85000,IDR,85000
+251,"barusan aku baru aja beli tiket bioskop, totalnya 15k",ambiguous,multiple_categories|calculation,R2,15000,IDR,15000
+252,gue udah beli tiket bioskop 113ribu,ok,,R5,113000,IDR,113000
+253,barusan gue beli pulsa listrik 14ribu,ok,,R5,14000,IDR,14000
+254,"tadi gue abis beli tiket bioskop, totalnya 61k",ambiguous,multiple_categories|calculation,R2,61000,IDR,61000
+255,"tadi gue tadi servis hp, bayar 36rb",ambiguous,multiple_categories,R2,36000,IDR,36000
+256,tadi gue abis aja laundry baju 33ribu,ok,,R5,33000,IDR,33000
+257,tadi saya tadi laundry baju 74k,ok,,R5,74000,IDR,74000
+258,tadi gue barusan naik ojek 82ribu,ok,,R5,82000,IDR,82000
+259,"gue lagi isi pulsa, totalnya 49ribu",ambiguous,multiple_categories|calculation,R2,49000,IDR,49000
+260,gue udah laundry baju 98rb,ok,,R5,98000,IDR,98000
+261,"tadi aku tadi ngelakuin potong rambut, keluar 123ribu",ambiguous,multiple_categories,R2,123000,IDR,123000
+262,"tadi saya abis isi pulsa, totalnya 26ribu",ambiguous,multiple_categories|calculation,R2,26000,IDR,26000
+263,barusan gue baru aja beli tiket bioskop 24rb,ok,,R5,24000,IDR,24000
+264,"tadi saya tadi laundry baju, bayar 140ribu",ambiguous,multiple_categories,R2,140000,IDR,140000
+265,"tadi saya udah bayar parkir, habis duit 41rb",ambiguous,multiple_categories,R2,41000,IDR,41000
+266,gue barusan cuci motor 146k,ok,,R5,146000,IDR,146000
+267,"barusan gue baru aja abis bayar listrik, habis 32rb",ambiguous,multiple_categories,R2,32000,IDR,32000
+268,"tadi aku tadi abis servis hp, habis 45rb",ambiguous,multiple_categories,R2,45000,IDR,45000
+269,"saya baru aja beli tiket bioskop, totalnya 29rb",ambiguous,multiple_categories|calculation,R2,29000,IDR,29000
+270,tadi saya udah potong rambut 61ribu,ok,,R5,61000,IDR,61000
+271,aku lagi laundry baju 90rb,ok,,R5,90000,IDR,90000
+272,"tadi aku tadi ngelakuin bayar listrik, keluar 48rb",ambiguous,multiple_categories,R2,48000,IDR,48000
+273,"tadi aku abis bayar listrik, habis duit 123ribu",ambiguous,multiple_categories,R2,123000,IDR,123000
+274,"tadi saya lagi bayar parkir, habis duit 22ribu",ambiguous,multiple_categories,R2,22000,IDR,22000
+275,tadi aku potong rambut 117ribu,ok,,R5,117000,IDR,117000
+276,"aku barusan servis hp, bayar 18rb",ambiguous,multiple_categories,R2,18000,IDR,18000
+277,"gue udah bayar parkir, habis duit 15rb",ambiguous,multiple_categories,R2,15000,IDR,15000
+278,tadi aku baru aja aja bayar listrik 41rb,ok,,R5,41000,IDR,41000
+279,"tadi gue lagi naik ojek, totalnya 32ribu",ambiguous,multiple_categories|calculation,R2,32000,IDR,32000
+280,"barusan gue lagi isi pulsa, ngeluarin 129k",ambiguous,multiple_categories,R2,129000,IDR,129000
+281,tadi gue tadi servis hp 25ribu,ok,,R5,25000,IDR,25000
+282,"gue tadi beli pulsa listrik, ngeluarin 37k",ambiguous,multiple_categories,R2,37000,IDR,37000
+283,"gue baru aja laundry baju, totalnya 94rb",ambiguous,multiple_categories|calculation,R2,94000,IDR,94000
+284,"tadi gue baru aja ngelakuin beli tiket bioskop, keluar 120k",ambiguous,multiple_categories,R2,120000,IDR,120000
+285,"saya abis isi pulsa, keluar duit 92ribu",ambiguous,multiple_categories,R2,92000,IDR,92000
+286,barusan gue bayar parkir 128k,ok,,R5,128000,IDR,128000
+287,barusan aku laundry baju 20ribu,ok,,R5,20000,IDR,20000
+288,"tadi gue barusan isi pulsa, bayar 124ribu",ambiguous,multiple_categories,R2,124000,IDR,124000
+289,"barusan gue barusan ngelakuin servis hp, keluar 42rb",ambiguous,multiple_categories,R2,42000,IDR,42000
+290,saya abis aja isi pulsa 56rb,ok,,R5,56000,IDR,56000
+291,saya barusan naik ojek 83ribu,ok,,R5,83000,IDR,83000
+292,"barusan gue lagi beli tiket bioskop, totalnya 138k",ambiguous,multiple_categories|calculation,R2,138000,IDR,138000
+293,"tadi saya udah ngelakuin bayar parkir, keluar 108rb",ambiguous,multiple_categories,R2,108000,IDR,108000
+294,"tadi aku udah ngelakuin potong rambut, keluar 114k",ambiguous,multiple_categories,R2,114000,IDR,114000
+295,"barusan aku udah potong rambut, totalnya 97k",ambiguous,multiple_categories|calculation,R2,97000,IDR,97000
+296,Beli miras 25000,ok,,R5,25000,IDR,25000
+297,Makan gorengan makan 3 bayar 1 jadi 2000,ambiguous,calculation,R4,2000,IDR,2000
+298,Beli tiket pesawat pulang 2.887.513,ok,,R5,2887513,IDR,2887513
+300,Makan Ricis bareng gebetan 130000,ok,,R5,130000,IDR,130000
+301,Naik angkot 5000,ok,,R5,5000,IDR,5000
+302,Beli coklat buat surprise 43.500,ok,,R5,43500,IDR,43500
+303,Mie gacoan lapar tengah malam 50k,ok,,R5,50000,IDR,50000
+304,beli bensin 30K,ok,,R5,30000,IDR,30000
+305,beli rokok 45k,ok,,R5,45000,IDR,45000
+306,beli vape pod 200k,ok,,R5,200000,IDR,200000
+307,beli teh hijau 19k,ok,,R5,19000,IDR,19000
+308,beli hand sanityzer 40k,ok,,R5,40000,IDR,40000
+309,beli sandal 453k,ok,,R5,453000,IDR,453000
+310,beli ban motor 59k,ok,,R5,59000,IDR,59000
+311,Bayar wifi 380k,ok,,R5,380000,IDR,380000
+312,Shopee popcorn promo 12.12 dapet harga 60k,ok,,R5,60000,IDR,60000
+313,Grabfood sarapan 30k,ok,,R5,30000,IDR,30000
+314,Beli kopi americano nescafe 5k murah tapi enak,ok,,R5,5000,IDR,5000
+315,Tiket masuk wahana 10k,ok,,R5,10000,IDR,10000
+316,buat bayar sewa rumah 2.500.000,ok,,R5,2500000,IDR,2500000
+317,susu dan kebutuhan anak 700.000,ok,,R5,700000,IDR,700000
+318,sedangkan buat kebutuhan lain butuh 3.000.000 ,ok,,R5,3000000,IDR,3000000
+319,kemarin aku makan bakmi 50k,ok,,R5,50000,IDR,50000
+320,19 desember beli minuman creme brule enak tapi eneg,rejected,missing_amount,R1,,IDR,
+321,beli mixue 16k,ambiguous,non_plus_operator,R3,16000,IDR,16000
+322,di batavia pik pegel bagus tapi mahal makan aja 200k,ok,,R5,200000,IDR,200000
